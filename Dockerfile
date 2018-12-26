@@ -3,7 +3,7 @@
 FROM alpine
 
 LABEL maintainer="issam.mejri@yahoo.fr"
-
+ENV formation="docker"
 # Install Node and NPM
 RUN apk add --update nodejs nodejs-npm
 
